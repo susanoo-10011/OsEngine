@@ -608,7 +608,6 @@
     <Compile Include="Market\Servers\Deribit\Entity\ResponseWebSocketMessage.cs" />
     <Compile Include="Market\Servers\Entity\BidAskSender.cs" />
     <Compile Include="Market\Servers\Entity\OrderSender.cs" />
-    <Compile Include="Market\Servers\Entity\PositionOnBoardSander.cs" />
     <Compile Include="Market\Servers\Entity\ServerParameter.cs" />
     <Compile Include="Market\Servers\ExMo\ExmoClient.cs" />
     <Compile Include="Market\Servers\ExMo\ExmoServer.cs" />
@@ -798,9 +797,12 @@
     <Compile Include="Market\Servers\Pionex\Entity\ResponseWebSocketMessage.cs" />
     <Compile Include="Market\Servers\Pionex\PionexServerSpot.cs" />
     <Compile Include="Market\Servers\Pionex\PionexServerSpotPermission.cs" />
-    <Compile Include="Market\Servers\Plaza\Internal\PlazaClient.cs" />
-    <Compile Include="Market\Servers\Plaza\Internal\PlazaMarketDepthCreator.cs" />
+    <Compile Include="Market\Servers\Plaza\Entity\BitMask.cs" />
+    <Compile Include="Market\Servers\Plaza\Entity\PlazaChangePriceOrder.cs" />
+    <Compile Include="Market\Servers\Plaza\Entity\PositionOnBoardSander.cs" />
+    <Compile Include="Market\Servers\Plaza\Entity\RevisionInfo.cs" />
     <Compile Include="Market\Servers\Plaza\PlazaServer.cs" />
+    <Compile Include="Market\Servers\Plaza\PlazaServerPermission.cs" />
     <Compile Include="Market\Servers\QuikLua\QuikLuaServer.cs" />
     <Compile Include="Market\ServerMasterPortfoliosPainter.cs" />
     <Compile Include="Market\Servers\ServerCandleStorage.cs" />
